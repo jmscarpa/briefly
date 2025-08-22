@@ -1,0 +1,28 @@
+{
+  "name": "@jmscarpa/briefly",
+  "version": "0.1.0",
+  "description": "A simple CLI to generate and publish product changelogs from git commits and send them to Discord",
+  "bin": {
+    "briefly": "./cli.sh"
+  },
+  "author": {
+    "name": "João Mateus Scarpa",
+    "email": "joao@example.com",
+    "url": "https://github.com/jmscarpa"
+  },
+  "files": [
+    "cli.sh",
+    "lib/",
+    "cmds/"
+  ],
+  "keywords": [
+    "changelog",
+    "discord",
+    "git",
+    "openai",
+    "cli",
+    "automation",
+    "releases"
+  ],
+  "license": "MIT"
+}
